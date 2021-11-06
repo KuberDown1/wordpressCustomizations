@@ -1,0 +1,94 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #1d2731;
+    color: #d9b310;
+}
+
+a{
+    display: block;
+    height: 50px;
+    background-color: #328cc1;
+    width: 150px;
+    text-decoration: none;
+    font-weight: 1000;
+    border-radius: 17px;
+    float: left;
+    margin-left: 3px;
+    color: #d9b310;
+}
+
+a:hover{
+    background-color: #389dd8;
+    color: #fdcc07;
+}
+
+a div{
+    width: 150px;
+    position: absolute;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.twoLines{
+    margin-top: 7px !important;
+}
+
+.newLine{
+    margin-top: 5px;
+    clear: left;
+}
+
+
+#sortable{
+    display: block;
+    float: left;
+    width: 200px;
+    border-width: 2px;
+}
+
+.moveableLi{
+    background-color: #328cc1;
+    width: 100px;
+    height: 50px;
+    list-style: none;
+    display: block;
+    cursor: move;
+    list-style-type: none;
+    width: 175px;
+    margin-right:0px !important;
+    float: left;
+}
+
+.moveableLi div{
+    text-align: center;
+    background-color: #328cc1 !important;
+    font-weight: 1000;
+    float: left;
+    display: block;
+    height: 40px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.outputHolder{
+    width: 500px;
+    height: 400px;
+    margin: 0px 200px 0px 0px;
+}
+
+#asideMenuOutput{
+    display: block;
+    resize: none;
+    height: 300px;
+    width: 400px;
+    float: left;
+    margin: 15px 0px 0px 0px;
+
+}
+
+#asideMenuOutputButton{
+    float: left;
+}
